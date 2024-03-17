@@ -9,6 +9,8 @@ body {
 #point > div {
   position: absolute;
   border-radius: 50%;
+  transition: all 5s;
+  transform: rotate(Xdeg);
 }
 
 p {
@@ -16,3 +18,7 @@ p {
   color: #ccc;
   font-family: Arial, Helvetica, sans-serif;
 } 
+
+.point {
+  filter: blur(3px);
+}

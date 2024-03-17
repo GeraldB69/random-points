@@ -10,7 +10,7 @@ class Point {
 
   render() {
     
-    let content = `<div id='${this.positionY-this.positionX}' style="`;
+    let content = `<div id='${this.positionY-this.positionX}' class="point" style="`;
     content += `top:${this.positionY}vh;`; // 0 en haut, 100 en bas
     content += `left:${this.positionX}vw;`; // 0 à gauche, 100 à droite
     content += `height:${this.size}px;`;
